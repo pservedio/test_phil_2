@@ -2,7 +2,6 @@ class IterationsController < ApplicationController
   # GET /iterations
   # GET /iterations.xml
   
-
   def index
     @iterations = Iteration.all
 
